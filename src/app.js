@@ -13,4 +13,4 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(jsx, document.getElementById('body'))
+ReactDOM.render(jsx, document.getElementById('body'));
