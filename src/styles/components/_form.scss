@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    flex-grow: 1;
+    padding: $m-size 0;
+    margin-bottom: $l-size;
+}
+
+.form_input--text-area {
+    margin-top: $l-size;
+}
+
+.form__button {
+    align-self: flex-start;
+}
+
+.error {
+    font-style: italic;
+}
+
+.button {
+    margin-top: 1rem;
+    background: $blue;
+    border: none;
+    border-bottom: .3rem solid darken($blue, 15%);
+    color: white;
+    padding: 1rem;
+}
+
+.button--remove {
+    background: $grey;
+}

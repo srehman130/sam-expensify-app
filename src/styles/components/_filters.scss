@@ -1,0 +1,10 @@
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin: $m-size 0;
+    flex-wrap: wrap;
+}
+
+.filters__text {
+    padding: 1rem;
+}

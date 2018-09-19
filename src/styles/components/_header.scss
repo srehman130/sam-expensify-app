@@ -1,0 +1,35 @@
+.header {
+    background: $off-black;
+    color: white;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+}
+
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__navbar__inactive {
+    font-size: $m-size;
+    margin: 0;
+    color: $off-white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: $m-size $l-size 0 0;
+}
+
+.header__navbar__active {
+    font-weight: bold;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .header {
+        margin-bottom: $m-size;
+    }
+}
